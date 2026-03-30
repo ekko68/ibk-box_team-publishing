@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Source Han Sans K';
+  font-style: normal;
+  font-weight: 300;
+  src: local(''),
+        url("./fonts/Source Han Sans K_light.woff"), format('woff'),
+        url("./fonts/Source Han Sans K_light.woff2"), format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Han Sans K';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+        url("./fonts/Source Han Sans K_normal.woff"), format('woff'),
+        url("./fonts/Source Han Sans K_normal.woff2"), format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Han Sans K';
+  font-style: normal;
+  font-weight: 500;
+  src: local(''),
+        url("./fonts/Source Han Sans K_medium.woff"), format('woff'),
+        url("./fonts/Source Han Sans K_medium.woff2"), format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Source Han Sans K';
+  font-style: normal;
+  font-weight: 700;
+  src: local(''),
+        url("./fonts/Source Han Sans K_bold.woff"), format('woff'),
+        url("./fonts/Source Han Sans K_bold.woff2"), format('woff2');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Source Han Sans K', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#F8F8F8 ;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
